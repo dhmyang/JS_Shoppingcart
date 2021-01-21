@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  height: 16vh;
+  background-color: aquamarine;
+  color: darkblue;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0%;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 60px 0 60px;
+  font-size: 1.5em;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav li span {
+  padding-left: 5px;
+}
+
+li a {
+  padding: 5px;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 3em;
+}
+.image {
+  margin: 0 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.image img {
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+}
+
+.add-cart {
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: darkcyan;
+  color: white;
+  padding: 1em;
+  margin: 1em;
+  display: block;
+}
